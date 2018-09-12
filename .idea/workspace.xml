@@ -78,8 +78,8 @@
       <file leaf-file-name="IfAge.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../javaDemo/src/main/java/branching/IfAge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="21" column="87" lean-forward="false" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+            <state relative-caret-position="130">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -178,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/main/java/vk/Datatypes.java" />
         <option value="$PROJECT_DIR$/src/main/java/branching/IfStatement.java" />
         <option value="$PROJECT_DIR$/src/main/java/branching/IfAge.java" />
+        <option value="$PROJECT_DIR$/../javaDemo/src/main/java/branching/IfAge.java" />
       </list>
     </option>
   </component>
@@ -916,8 +917,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../javaDemo/src/main/java/branching/IfAge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="21" column="87" lean-forward="false" selection-start-line="21" selection-start-column="87" selection-end-line="21" selection-end-column="87" />
+        <state relative-caret-position="130">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>

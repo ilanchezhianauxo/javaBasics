@@ -10,6 +10,8 @@ public class IfAge {
 
         int age;
         System.out.println("enter age");
+        String name;
+        name=in.nextLine();
         age=in.nextInt();
 //to check whether a person is eligible to vote and stand in election
         //to stand in election age must be greater than 25
