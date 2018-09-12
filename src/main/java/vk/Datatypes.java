@@ -32,6 +32,7 @@ public class Datatypes
         d.print();
 
     }
+
     static int add(int a1,int a2)
     {
 
