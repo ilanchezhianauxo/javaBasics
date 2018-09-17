@@ -2,6 +2,8 @@ package vk;
 
 import java.util.Scanner;
 
+import static vk.AccessModifiers.*;
+
 public class Datatypes
 {
 
@@ -20,6 +22,7 @@ public class Datatypes
 
         int result;
 
+        a=10;
 
         result=add(Data.op1,Data.op2);
         System.out.println("sum="+result);
