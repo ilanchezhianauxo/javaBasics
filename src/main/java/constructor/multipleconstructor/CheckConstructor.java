@@ -1,4 +1,6 @@
-package constructor;
+package constructor.multipleconstructor;
+
+import constructor.multipleconstructor.BaseClass;
 
 public class CheckConstructor
 {

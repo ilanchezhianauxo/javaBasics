@@ -1,4 +1,4 @@
-package constructor;
+package constructor.multipleconstructor;
 
 public class BaseClass extends ParentClass {
     public BaseClass(Boolean status)
