@@ -13,40 +13,72 @@ public class Str1 {
         name=in.nextLine();
 
         //charAt()
-        System.out.println(name.charAt(2));
+        char ch;
+        ch=name.charAt(2);
+        System.out.println("char at 2"+ch);
 
         //length
         int length;
         length=name.length();
-        System.out.println(length);
-        System.out.println("length="+length);
+        System.out.println("length of "+name+" = "+length);
 
         //Substring
-        String sun=name.substring(0,3);
-        System.out.println("substring="+sun);
+        String sub=name.substring(1,5);
+        System.out.println("substring="+sub);
 
         //contains
-        System.out.println("for contains"+name.contains("ila"));
+        boolean contains;
+        String s="ila";
+        contains=name.contains(s);
+        System.out.println(name+" contains "+s+ " returns "+contains);
 
         //lower and upper
         System.out.println("to upper"+name.toUpperCase());
         System.out.println("aback to lower"+name.toLowerCase());
 
         //trim
-        System.out.println("after trim"+name.trim());
+        name=name.trim();
+        System.out.println("after trim"+name);
 
         //replace
+        name=name.replace("i","j");
+        System.out.println("after trim  "+name);
 
         //split
+        String[] splitArray;
+        splitArray=name.split(" ");
+
+    /*    int len;
+        len=splitArray.length;
+        for(int i=0;i<len;i++)
+            System.out.println(splitArray[i]);*/
+    for(String s1:splitArray)
+        System.out.println(s1);
 
         //to char array
+        char[] charArray;
+        charArray=name.toCharArray();
+        for(char c:charArray)
+            System.out.println(c);
 
         //string comparison
+        String s2=" jcbjqbcq";
+        if(name.equals(s2))
+            System.out.println("equal");
+        else
+            System.out.println("not equal");
 
         //string builder
+        StringBuilder sb=new StringBuilder();
+        for(String s1:splitArray)
+        {
+            sb.append(s1);
 
+        }
+        sb=sb.reverse();
+        System.out.println("after reverse using string builder"+sb.toString());
         //string concatenation
-
+        System.out.println("concatenated string= "+name.concat(s2));
 
 
     }

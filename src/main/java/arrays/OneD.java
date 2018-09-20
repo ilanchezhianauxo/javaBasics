@@ -8,7 +8,8 @@ public class OneD {
 
         int n=in.nextInt();
         int sum=0;
-        int a[]=new int[n];
+
+        int[] a=new int[n];
 
         for(int i=0;i<n;i++)
         {
@@ -17,7 +18,7 @@ public class OneD {
         }
         for (int i=0;i<n;i++)
         {
-            System.out.println("at a["+i+"]="+a[i]);
+            System.out.println("a["+i+"]"+a[i]);
             sum=sum+a[i];
         }
         System.out.println(sum);

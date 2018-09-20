@@ -10,8 +10,9 @@ public class SumOfNnos {
         System.out.println("enter how many nos");
         n=in.nextInt();
 
-        for(int i=0;i<=n;i++)
+        for(int i=0;i<n;i++)
         {
+            System.out.println("enter "+(i+1) +" number");
             temp=in.nextInt();
             sum=sum+temp;
         }
